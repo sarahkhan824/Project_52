@@ -1,0 +1,48 @@
+h1{
+    color:#4EFFC4;
+    text-align: center;
+    background-color: goldenrod;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #FFE4C4
+}
+
+.item{
+
+    text-align: right;
+    border: #EE82EC;
+    align-items:unset;
+    margin: 50px;
+
+}
+.link{
+
+    background-color: #ADFF2F;
+}
+.set{
+    background-color: #FAC3DF;
+    border: #EE82EE;
+    border-radius: 100px;
+    
+    margin: 50px;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.set:hover p{
+    opacity: 1;
+  }
+  .set img{
+      opacity: 1;
+  }
+  .set:hover img{
+      opacity: 0.5;
+  }
